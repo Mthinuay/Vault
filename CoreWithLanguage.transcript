@@ -1,0 +1,2299 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+        "name": "User",
+        "role": "user"
+      }
+    ],
+    "membersRemoved": [],
+    "id": "180f694a-a225-4a49-9a22-789b4ad70074",
+    "channelId": "emulator",
+    "recipient": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2022-06-26T14:16:04+02:00",
+    "timestamp": "2022-06-26T12:16:04.175Z",
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "from": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "🖐️ Hi! How can I help?",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>🖐️ Hi! How can I help?</voice></speak>",
+    "replyToId": "180f694a-a225-4a49-9a22-789b4ad70074",
+    "id": "78559e41-a10a-43d5-89f5-b910e286c571",
+    "localTimestamp": "2022-06-26T14:16:04+02:00",
+    "timestamp": "2022-06-26T12:16:04.223Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "180f694a-a225-4a49-9a22-789b4ad70074",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "activity": {
+          "type": "conversationUpdate",
+          "membersAdded": [
+            {
+              "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+              "name": "User",
+              "role": "user"
+            }
+          ],
+          "membersRemoved": [],
+          "id": "180f694a-a225-4a49-9a22-789b4ad70074",
+          "channelId": "emulator",
+          "recipient": {
+            "id": "9490af5c-20c5-4433-8388-775461d7e972",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "localTimestamp": "2022-06-26T12:16:04.000Z",
+          "timestamp": "2022-06-26T12:16:04.175Z",
+          "conversation": {
+            "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+          },
+          "from": {
+            "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+            "name": "User",
+            "role": "user"
+          },
+          "locale": "en-us",
+          "serviceUrl": "http://localhost:5000",
+          "rawTimestamp": "2022-06-26T12:16:04.175Z",
+          "rawLocalTimestamp": "2022-06-26T14:16:04+02:00",
+          "callerId": null
+        },
+        "dialogEvent": {
+          "name": "endOfActions",
+          "bubble": false
+        },
+        "activityProcessed": true
+      },
+      "conversation": {
+        "_lastAccess": "2022-06-26T12:16:04.186Z",
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "greeted": "true"
+      }
+    },
+    "name": "BotState",
+    "id": "f4714011-9b0f-4d84-bbc8-5da2cda1df65",
+    "localTimestamp": "2022-06-26T14:16:04+02:00",
+    "timestamp": "2022-06-26T12:16:04.244Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1656245777467yh0khwvh8bo",
+      "clientTimestamp": "2022-06-26T12:16:17.467Z"
+    },
+    "text": "HI",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "localTimestamp": "2022-06-26T14:16:17+02:00",
+    "localTimezone": "Africa/Johannesburg",
+    "timestamp": "2022-06-26T12:16:17.489Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "id": "d0c3677d-9203-4e65-bfd8-577e1e62287b",
+    "recipient": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "d0c3677d-9203-4e65-bfd8-577e1e62287b",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "channelData": {
+          "clientActivityID": "1656245777467yh0khwvh8bo",
+          "clientTimestamp": "2022-06-26T12:16:17.467Z"
+        },
+        "text": "HI",
+        "textFormat": "plain",
+        "type": "message",
+        "channelId": "emulator",
+        "from": {
+          "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+          "name": "",
+          "role": "user"
+        },
+        "locale": "en-us",
+        "localTimestamp": "2022-06-26T12:16:17.000Z",
+        "localTimezone": "Africa/Johannesburg",
+        "timestamp": "2022-06-26T12:16:17.489Z",
+        "entities": [
+          {
+            "requiresBotState": true,
+            "supportsListening": true,
+            "supportsTts": true,
+            "type": "ClientCapabilities"
+          }
+        ],
+        "id": "d0c3677d-9203-4e65-bfd8-577e1e62287b",
+        "recipient": {
+          "id": "9490af5c-20c5-4433-8388-775461d7e972",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+        },
+        "serviceUrl": "http://localhost:5000",
+        "rawTimestamp": "2022-06-26T12:16:17.489Z",
+        "rawLocalTimestamp": "2022-06-26T14:16:17+02:00",
+        "callerId": null
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "hi",
+            "hello",
+            "can i make an order"
+          ],
+          "answer": "Hi thank you for choosing our service,  HOW CAN WE ASSIST?",
+          "score": 1,
+          "id": 104,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        }
+      ],
+      "knowledgeBaseId": "9b2f3000-0f06-4657-8198-aed89d215a4b",
+      "scoreThreshold": 0.3,
+      "top": 3,
+      "strictFilters": [
+        {
+          "name": "dialogName",
+          "value": "CoreWithLanguage"
+        }
+      ],
+      "metadataBoost": [],
+      "qnaId": 0
+    },
+    "name": "QnAMaker",
+    "id": "1e30516d-63de-419c-ab28-f9b875ca4f88",
+    "localTimestamp": "2022-06-26T14:16:22+02:00",
+    "timestamp": "2022-06-26T12:16:22.453Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "d0c3677d-9203-4e65-bfd8-577e1e62287b",
+    "label": "LuisV3 Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "HI",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.9481535
+          }
+        },
+        "entities": {},
+        "luisResult": null
+      },
+      "luisResult": {
+        "topIntent": "DeferToRecognizer_QnA_CoreWithLanguage",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.9481535
+          }
+        },
+        "entities": {}
+      },
+      "luisOptions": {
+        "includeAllIntents": false,
+        "includeInstanceData": false,
+        "log": true,
+        "preferExternalEntities": true,
+        "datetimeReference": "",
+        "slot": "production",
+        "telemetryClient": {},
+        "logPersonalInformation": false,
+        "includeAPIResults": false,
+        "apiVersion": "v3"
+      },
+      "luisModel": {
+        "ModelID": "c7b61a8b-5f4a-4786-aadf-5fe4fa86470d"
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "f7d97135-f811-4c1e-979b-14cdd2d38098",
+    "localTimestamp": "2022-06-26T14:16:23+02:00",
+    "timestamp": "2022-06-26T12:16:23.597Z"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Hi thank you for choosing our service,  HOW CAN WE ASSIST?",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Hi thank you for choosing our service,  HOW CAN WE ASSIST?</voice></speak>",
+    "replyToId": "d0c3677d-9203-4e65-bfd8-577e1e62287b",
+    "id": "4752ddcb-da60-4ee3-8ed4-4d993bfe58ca",
+    "localTimestamp": "2022-06-26T14:16:23+02:00",
+    "timestamp": "2022-06-26T12:16:23.601Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "d0c3677d-9203-4e65-bfd8-577e1e62287b",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "activity": {
+          "channelData": {
+            "clientActivityID": "1656245777467yh0khwvh8bo",
+            "clientTimestamp": "2022-06-26T12:16:17.467Z"
+          },
+          "text": "HI",
+          "textFormat": "plain",
+          "type": "message",
+          "channelId": "emulator",
+          "from": {
+            "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+            "name": "",
+            "role": "user"
+          },
+          "locale": "en-us",
+          "localTimestamp": "2022-06-26T12:16:17.000Z",
+          "localTimezone": "Africa/Johannesburg",
+          "timestamp": "2022-06-26T12:16:17.489Z",
+          "entities": [
+            {
+              "requiresBotState": true,
+              "supportsListening": true,
+              "supportsTts": true,
+              "type": "ClientCapabilities"
+            }
+          ],
+          "id": "d0c3677d-9203-4e65-bfd8-577e1e62287b",
+          "recipient": {
+            "id": "9490af5c-20c5-4433-8388-775461d7e972",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "conversation": {
+            "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+          },
+          "serviceUrl": "http://localhost:5000",
+          "rawTimestamp": "2022-06-26T12:16:17.489Z",
+          "rawLocalTimestamp": "2022-06-26T14:16:17+02:00",
+          "callerId": null
+        },
+        "dialogEvent": {
+          "name": "endOfActions",
+          "bubble": false
+        },
+        "recognized": {
+          "text": "HI",
+          "intents": {
+            "QnAMatch": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {
+              "answer": [
+                {
+                  "questions": [
+                    "hi",
+                    "hello",
+                    "can i make an order"
+                  ],
+                  "answer": "Hi thank you for choosing our service,  HOW CAN WE ASSIST?",
+                  "score": 1,
+                  "id": 104,
+                  "source": "custom editorial",
+                  "isDocumentText": false,
+                  "metadata": [
+                    {
+                      "name": "dialogname",
+                      "value": "corewithlanguage"
+                    }
+                  ],
+                  "context": {
+                    "isContextOnly": false,
+                    "prompts": []
+                  },
+                  "startIndex": 0,
+                  "endIndex": 2
+                }
+              ]
+            },
+            "answer": [
+              "Hi thank you for choosing our service,  HOW CAN WE ASSIST?"
+            ]
+          },
+          "answers": [
+            {
+              "questions": [
+                "hi",
+                "hello",
+                "can i make an order"
+              ],
+              "answer": "Hi thank you for choosing our service,  HOW CAN WE ASSIST?",
+              "score": 1,
+              "id": 104,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              },
+              "startIndex": 0,
+              "endIndex": 2
+            }
+          ],
+          "id": "QnA_CoreWithLanguage",
+          "intent": "QnAMatch",
+          "score": 1
+        },
+        "interrupted": true
+      },
+      "conversation": {
+        "_lastAccess": "2022-06-26T12:16:04.186Z",
+        "DialogState": {
+          "dialogStack": []
+        },
+        "eTag": "3"
+      },
+      "user": {
+        "greeted": "true",
+        "eTag": "4"
+      }
+    },
+    "name": "BotState",
+    "id": "2bf43f99-f4ad-4392-a362-17aeeb9e2b28",
+    "localTimestamp": "2022-06-26T14:16:23+02:00",
+    "timestamp": "2022-06-26T12:16:23.609Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "16562458141645fsat2nw8kn",
+      "clientTimestamp": "2022-06-26T12:16:54.164Z"
+    },
+    "text": "WHATS ON THE MENU",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "localTimestamp": "2022-06-26T14:16:54+02:00",
+    "localTimezone": "Africa/Johannesburg",
+    "timestamp": "2022-06-26T12:16:54.181Z",
+    "id": "9d22130d-70b9-4eb6-96d6-52e11acd8d84",
+    "recipient": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "9d22130d-70b9-4eb6-96d6-52e11acd8d84",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "channelData": {
+          "clientActivityID": "16562458141645fsat2nw8kn",
+          "clientTimestamp": "2022-06-26T12:16:54.164Z"
+        },
+        "text": "WHATS ON THE MENU",
+        "textFormat": "plain",
+        "type": "message",
+        "channelId": "emulator",
+        "from": {
+          "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+          "name": "",
+          "role": "user"
+        },
+        "locale": "en-us",
+        "localTimestamp": "2022-06-26T12:16:54.000Z",
+        "localTimezone": "Africa/Johannesburg",
+        "timestamp": "2022-06-26T12:16:54.181Z",
+        "id": "9d22130d-70b9-4eb6-96d6-52e11acd8d84",
+        "recipient": {
+          "id": "9490af5c-20c5-4433-8388-775461d7e972",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+        },
+        "serviceUrl": "http://localhost:5000",
+        "rawTimestamp": "2022-06-26T12:16:54.181Z",
+        "rawLocalTimestamp": "2022-06-26T14:16:54+02:00",
+        "callerId": null
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "HI CAN I HAVE TODAYS MENU",
+            "WHATS TODAYS MENU",
+            "WHAT DO YOU SELL",
+            "WHAT DO YOU HAVE ON YOUR MENU",
+            "WHAT KOTAS ARE AVAILABLE TODAY"
+          ],
+          "answer": "Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45",
+          "score": 0.97,
+          "id": 106,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        }
+      ],
+      "knowledgeBaseId": "9b2f3000-0f06-4657-8198-aed89d215a4b",
+      "scoreThreshold": 0.3,
+      "top": 3,
+      "strictFilters": [
+        {
+          "name": "dialogName",
+          "value": "CoreWithLanguage"
+        }
+      ],
+      "metadataBoost": [],
+      "qnaId": 0
+    },
+    "name": "QnAMaker",
+    "id": "da00c569-7781-4105-b909-30e7626ab33d",
+    "localTimestamp": "2022-06-26T14:17:00+02:00",
+    "timestamp": "2022-06-26T12:17:00.345Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "9d22130d-70b9-4eb6-96d6-52e11acd8d84",
+    "label": "LuisV3 Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "WHATS ON THE MENU",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.8689708
+          }
+        },
+        "entities": {},
+        "luisResult": null
+      },
+      "luisResult": {
+        "topIntent": "DeferToRecognizer_QnA_CoreWithLanguage",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.8689708
+          }
+        },
+        "entities": {}
+      },
+      "luisOptions": {
+        "includeAllIntents": false,
+        "includeInstanceData": false,
+        "log": true,
+        "preferExternalEntities": true,
+        "datetimeReference": "",
+        "slot": "production",
+        "telemetryClient": {},
+        "logPersonalInformation": false,
+        "includeAPIResults": false,
+        "apiVersion": "v3"
+      },
+      "luisModel": {
+        "ModelID": "c7b61a8b-5f4a-4786-aadf-5fe4fa86470d"
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "15c07734-94e8-4a9e-a431-fb2389d91eea",
+    "localTimestamp": "2022-06-26T14:17:00+02:00",
+    "timestamp": "2022-06-26T12:17:00.824Z"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45</voice></speak>",
+    "replyToId": "9d22130d-70b9-4eb6-96d6-52e11acd8d84",
+    "id": "6fb58ea0-f0e2-441f-9005-1b809eb4e55c",
+    "localTimestamp": "2022-06-26T14:17:00+02:00",
+    "timestamp": "2022-06-26T12:17:00.827Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "9d22130d-70b9-4eb6-96d6-52e11acd8d84",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "activity": {
+          "channelData": {
+            "clientActivityID": "16562458141645fsat2nw8kn",
+            "clientTimestamp": "2022-06-26T12:16:54.164Z"
+          },
+          "text": "WHATS ON THE MENU",
+          "textFormat": "plain",
+          "type": "message",
+          "channelId": "emulator",
+          "from": {
+            "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+            "name": "",
+            "role": "user"
+          },
+          "locale": "en-us",
+          "localTimestamp": "2022-06-26T12:16:54.000Z",
+          "localTimezone": "Africa/Johannesburg",
+          "timestamp": "2022-06-26T12:16:54.181Z",
+          "id": "9d22130d-70b9-4eb6-96d6-52e11acd8d84",
+          "recipient": {
+            "id": "9490af5c-20c5-4433-8388-775461d7e972",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "conversation": {
+            "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+          },
+          "serviceUrl": "http://localhost:5000",
+          "rawTimestamp": "2022-06-26T12:16:54.181Z",
+          "rawLocalTimestamp": "2022-06-26T14:16:54+02:00",
+          "callerId": null
+        },
+        "dialogEvent": {
+          "name": "endOfActions",
+          "bubble": false
+        },
+        "recognized": {
+          "text": "WHATS ON THE MENU",
+          "intents": {
+            "QnAMatch": {
+              "score": 0.97
+            }
+          },
+          "entities": {
+            "$instance": {
+              "answer": [
+                {
+                  "questions": [
+                    "HI CAN I HAVE TODAYS MENU",
+                    "WHATS TODAYS MENU",
+                    "WHAT DO YOU SELL",
+                    "WHAT DO YOU HAVE ON YOUR MENU",
+                    "WHAT KOTAS ARE AVAILABLE TODAY"
+                  ],
+                  "answer": "Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45",
+                  "score": 0.97,
+                  "id": 106,
+                  "source": "custom editorial",
+                  "isDocumentText": false,
+                  "metadata": [
+                    {
+                      "name": "dialogname",
+                      "value": "corewithlanguage"
+                    }
+                  ],
+                  "context": {
+                    "isContextOnly": false,
+                    "prompts": []
+                  },
+                  "startIndex": 0,
+                  "endIndex": 17
+                }
+              ]
+            },
+            "answer": [
+              "Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45"
+            ]
+          },
+          "answers": [
+            {
+              "questions": [
+                "HI CAN I HAVE TODAYS MENU",
+                "WHATS TODAYS MENU",
+                "WHAT DO YOU SELL",
+                "WHAT DO YOU HAVE ON YOUR MENU",
+                "WHAT KOTAS ARE AVAILABLE TODAY"
+              ],
+              "answer": "Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45",
+              "score": 0.97,
+              "id": 106,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              },
+              "startIndex": 0,
+              "endIndex": 17
+            }
+          ],
+          "id": "QnA_CoreWithLanguage",
+          "intent": "QnAMatch",
+          "score": 0.97
+        },
+        "interrupted": true
+      },
+      "conversation": {
+        "_lastAccess": "2022-06-26T12:16:04.186Z",
+        "DialogState": {
+          "dialogStack": []
+        },
+        "eTag": "3"
+      },
+      "user": {
+        "greeted": "true",
+        "eTag": "4"
+      }
+    },
+    "name": "BotState",
+    "id": "8e03f4ca-5b4a-4f82-9c40-a7061909fe65",
+    "localTimestamp": "2022-06-26T14:17:00+02:00",
+    "timestamp": "2022-06-26T12:17:00.836Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1656245833548n3jpjnuve8k",
+      "clientTimestamp": "2022-06-26T12:17:13.548Z"
+    },
+    "text": "KOTA",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "localTimestamp": "2022-06-26T14:17:13+02:00",
+    "localTimezone": "Africa/Johannesburg",
+    "timestamp": "2022-06-26T12:17:13.574Z",
+    "id": "07404ea8-e9ee-4298-a43c-a2133c2b648a",
+    "recipient": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "07404ea8-e9ee-4298-a43c-a2133c2b648a",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "channelData": {
+          "clientActivityID": "1656245833548n3jpjnuve8k",
+          "clientTimestamp": "2022-06-26T12:17:13.548Z"
+        },
+        "text": "KOTA",
+        "textFormat": "plain",
+        "type": "message",
+        "channelId": "emulator",
+        "from": {
+          "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+          "name": "",
+          "role": "user"
+        },
+        "locale": "en-us",
+        "localTimestamp": "2022-06-26T12:17:13.000Z",
+        "localTimezone": "Africa/Johannesburg",
+        "timestamp": "2022-06-26T12:17:13.574Z",
+        "id": "07404ea8-e9ee-4298-a43c-a2133c2b648a",
+        "recipient": {
+          "id": "9490af5c-20c5-4433-8388-775461d7e972",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+        },
+        "serviceUrl": "http://localhost:5000",
+        "rawTimestamp": "2022-06-26T12:17:13.574Z",
+        "rawLocalTimestamp": "2022-06-26T14:17:13+02:00",
+        "callerId": null
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "Kota 1",
+            "kota 2",
+            "kota 3",
+            "kota 4",
+            "kota 5"
+          ],
+          "answer": "ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \"",
+          "score": 0.95,
+          "id": 103,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        },
+        {
+          "questions": [
+            "HI CAN I HAVE TODAYS MENU",
+            "WHATS TODAYS MENU",
+            "WHAT DO YOU SELL",
+            "WHAT DO YOU HAVE ON YOUR MENU",
+            "WHAT KOTAS ARE AVAILABLE TODAY"
+          ],
+          "answer": "Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45",
+          "score": 0.46159999999999995,
+          "id": 106,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        },
+        {
+          "questions": [
+            "With whom am I talking?",
+            "What do you want me to address you?",
+            "Who are you?",
+            "Do you have a name?",
+            "How should I refer to you?",
+            "What name do you like to use?",
+            "So what's your name?",
+            "What do I call you?",
+            "What do you like to be called?",
+            "Introduce yourself",
+            "To whom am I speaking?",
+            "Introduction please",
+            "Introductions",
+            "So how should I address you?",
+            "So how should I refer to you?",
+            "So what do you like to be called?",
+            "So what is your name?",
+            "So what should I call you?",
+            "So what would you like me to call you",
+            "Can you introduce yourself",
+            "So who are you?",
+            "How would you like me to call you?",
+            "What are you called?",
+            "What can I address you?",
+            "What can I call you",
+            "What can I call you?",
+            "What can I refer to you?",
+            "What do you go by?",
+            "What do you want me to address you as?",
+            "How do you want me to address you as?",
+            "Can you tell me how to refer to you?",
+            "Can you tell me what I should call you?",
+            "Can you tell me what your name is?",
+            "Can you tell me your name?",
+            "Do you have a designation?",
+            "Do you have a title?",
+            "Do you have an official name?",
+            "How can I address you?",
+            "How can I refer to you?",
+            "How would you like me to refer to you?",
+            "How do you want me to address you?",
+            "How do you want me to call you?",
+            "How do you want me to refer to you?",
+            "how is your name",
+            "How should I address you?",
+            "How should I call you?",
+            "How would you like me to address you?",
+            "What do your friend call you?",
+            "How can I call you?",
+            "What do they call you?",
+            "What do you want me to call you?",
+            "What would you say your name is?",
+            "I'd like to know your name",
+            "I'd like to know what to call you",
+            "I want to know your name",
+            "I want to know what to call you",
+            "What is your first name?",
+            "What is your last name?",
+            "I'm going to need to know your name",
+            "What name to you like to be called?",
+            "You got a name?",
+            "What name do you like to be called?",
+            "I don't know your name.",
+            "I don't know what to call you.",
+            "I'm not sure what to call you.",
+            "I can't figure out what to call you.",
+            "It's not clear to me what your name is.",
+            "What name do you use?",
+            "Name please",
+            "What name do you go by?",
+            "What's your handle?",
+            "What name should I use for you?",
+            "What is your name?",
+            "What is your program name?",
+            "What should I address you?",
+            "What should I call you?",
+            "What should I refer to you?",
+            "What to people call you?",
+            "What would you like me to address you?",
+            "What would you like me to call you?",
+            "And your name is?",
+            "What's your designation?",
+            "What do you want me to refer to you?",
+            "What's your name?",
+            "Who do you want me to address you as?",
+            "who r u",
+            "With whom am I chatting?",
+            "With whom am I speaking?",
+            "Who are you exactly?",
+            "What name do you prefer?",
+            "What would you like me to refer to you?"
+          ],
+          "answer": "ekasi  kotas",
+          "score": 0.313,
+          "id": 105,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        }
+      ],
+      "knowledgeBaseId": "9b2f3000-0f06-4657-8198-aed89d215a4b",
+      "scoreThreshold": 0.3,
+      "top": 3,
+      "strictFilters": [
+        {
+          "name": "dialogName",
+          "value": "CoreWithLanguage"
+        }
+      ],
+      "metadataBoost": [],
+      "qnaId": 0
+    },
+    "name": "QnAMaker",
+    "id": "fe7c1a67-4cc9-4da1-8194-957b0c0aae4d",
+    "localTimestamp": "2022-06-26T14:17:14+02:00",
+    "timestamp": "2022-06-26T12:17:14.749Z"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \"",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \"</voice></speak>",
+    "replyToId": "07404ea8-e9ee-4298-a43c-a2133c2b648a",
+    "id": "fdc576a5-05ec-4570-b4a2-bf891b2b3b87",
+    "localTimestamp": "2022-06-26T14:17:15+02:00",
+    "timestamp": "2022-06-26T12:17:15.260Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "07404ea8-e9ee-4298-a43c-a2133c2b648a",
+    "label": "LuisV3 Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "KOTA",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.9592888
+          }
+        },
+        "entities": {},
+        "luisResult": null
+      },
+      "luisResult": {
+        "topIntent": "DeferToRecognizer_QnA_CoreWithLanguage",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.9592888
+          }
+        },
+        "entities": {}
+      },
+      "luisOptions": {
+        "includeAllIntents": false,
+        "includeInstanceData": false,
+        "log": true,
+        "preferExternalEntities": true,
+        "datetimeReference": "",
+        "slot": "production",
+        "telemetryClient": {},
+        "logPersonalInformation": false,
+        "includeAPIResults": false,
+        "apiVersion": "v3"
+      },
+      "luisModel": {
+        "ModelID": "c7b61a8b-5f4a-4786-aadf-5fe4fa86470d"
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "0a3a3468-a13e-46a3-ae6c-378288b98ff5",
+    "localTimestamp": "2022-06-26T14:17:15+02:00",
+    "timestamp": "2022-06-26T12:17:15.261Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "07404ea8-e9ee-4298-a43c-a2133c2b648a",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "activity": {
+          "channelData": {
+            "clientActivityID": "1656245833548n3jpjnuve8k",
+            "clientTimestamp": "2022-06-26T12:17:13.548Z"
+          },
+          "text": "KOTA",
+          "textFormat": "plain",
+          "type": "message",
+          "channelId": "emulator",
+          "from": {
+            "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+            "name": "",
+            "role": "user"
+          },
+          "locale": "en-us",
+          "localTimestamp": "2022-06-26T12:17:13.000Z",
+          "localTimezone": "Africa/Johannesburg",
+          "timestamp": "2022-06-26T12:17:13.574Z",
+          "id": "07404ea8-e9ee-4298-a43c-a2133c2b648a",
+          "recipient": {
+            "id": "9490af5c-20c5-4433-8388-775461d7e972",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "conversation": {
+            "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+          },
+          "serviceUrl": "http://localhost:5000",
+          "rawTimestamp": "2022-06-26T12:17:13.574Z",
+          "rawLocalTimestamp": "2022-06-26T14:17:13+02:00",
+          "callerId": null
+        },
+        "dialogEvent": {
+          "name": "endOfActions",
+          "bubble": false
+        },
+        "recognized": {
+          "text": "KOTA",
+          "intents": {
+            "QnAMatch": {
+              "score": 0.95
+            }
+          },
+          "entities": {
+            "$instance": {
+              "answer": [
+                {
+                  "questions": [
+                    "Kota 1",
+                    "kota 2",
+                    "kota 3",
+                    "kota 4",
+                    "kota 5"
+                  ],
+                  "answer": "ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \"",
+                  "score": 0.95,
+                  "id": 103,
+                  "source": "custom editorial",
+                  "isDocumentText": false,
+                  "metadata": [
+                    {
+                      "name": "dialogname",
+                      "value": "corewithlanguage"
+                    }
+                  ],
+                  "context": {
+                    "isContextOnly": false,
+                    "prompts": []
+                  },
+                  "startIndex": 0,
+                  "endIndex": 4
+                }
+              ]
+            },
+            "answer": [
+              "ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \""
+            ]
+          },
+          "answers": [
+            {
+              "questions": [
+                "Kota 1",
+                "kota 2",
+                "kota 3",
+                "kota 4",
+                "kota 5"
+              ],
+              "answer": "ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \"",
+              "score": 0.95,
+              "id": 103,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              },
+              "startIndex": 0,
+              "endIndex": 4
+            },
+            {
+              "questions": [
+                "HI CAN I HAVE TODAYS MENU",
+                "WHATS TODAYS MENU",
+                "WHAT DO YOU SELL",
+                "WHAT DO YOU HAVE ON YOUR MENU",
+                "WHAT KOTAS ARE AVAILABLE TODAY"
+              ],
+              "answer": "Kota Menu  Kota1:bread ,fried chips,eggs, cheese R15 Kota2:bread,fried chips,soursages R20 Kota3:bread fried chips,bacon and cheese R25 Kota4:bread ,fried chips,chakalaka and polony R30  Kota5: bread,chicken livers  and gizzards R45",
+              "score": 0.46159999999999995,
+              "id": 106,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              }
+            },
+            {
+              "questions": [
+                "With whom am I talking?",
+                "What do you want me to address you?",
+                "Who are you?",
+                "Do you have a name?",
+                "How should I refer to you?",
+                "What name do you like to use?",
+                "So what's your name?",
+                "What do I call you?",
+                "What do you like to be called?",
+                "Introduce yourself",
+                "To whom am I speaking?",
+                "Introduction please",
+                "Introductions",
+                "So how should I address you?",
+                "So how should I refer to you?",
+                "So what do you like to be called?",
+                "So what is your name?",
+                "So what should I call you?",
+                "So what would you like me to call you",
+                "Can you introduce yourself",
+                "So who are you?",
+                "How would you like me to call you?",
+                "What are you called?",
+                "What can I address you?",
+                "What can I call you",
+                "What can I call you?",
+                "What can I refer to you?",
+                "What do you go by?",
+                "What do you want me to address you as?",
+                "How do you want me to address you as?",
+                "Can you tell me how to refer to you?",
+                "Can you tell me what I should call you?",
+                "Can you tell me what your name is?",
+                "Can you tell me your name?",
+                "Do you have a designation?",
+                "Do you have a title?",
+                "Do you have an official name?",
+                "How can I address you?",
+                "How can I refer to you?",
+                "How would you like me to refer to you?",
+                "How do you want me to address you?",
+                "How do you want me to call you?",
+                "How do you want me to refer to you?",
+                "how is your name",
+                "How should I address you?",
+                "How should I call you?",
+                "How would you like me to address you?",
+                "What do your friend call you?",
+                "How can I call you?",
+                "What do they call you?",
+                "What do you want me to call you?",
+                "What would you say your name is?",
+                "I'd like to know your name",
+                "I'd like to know what to call you",
+                "I want to know your name",
+                "I want to know what to call you",
+                "What is your first name?",
+                "What is your last name?",
+                "I'm going to need to know your name",
+                "What name to you like to be called?",
+                "You got a name?",
+                "What name do you like to be called?",
+                "I don't know your name.",
+                "I don't know what to call you.",
+                "I'm not sure what to call you.",
+                "I can't figure out what to call you.",
+                "It's not clear to me what your name is.",
+                "What name do you use?",
+                "Name please",
+                "What name do you go by?",
+                "What's your handle?",
+                "What name should I use for you?",
+                "What is your name?",
+                "What is your program name?",
+                "What should I address you?",
+                "What should I call you?",
+                "What should I refer to you?",
+                "What to people call you?",
+                "What would you like me to address you?",
+                "What would you like me to call you?",
+                "And your name is?",
+                "What's your designation?",
+                "What do you want me to refer to you?",
+                "What's your name?",
+                "Who do you want me to address you as?",
+                "who r u",
+                "With whom am I chatting?",
+                "With whom am I speaking?",
+                "Who are you exactly?",
+                "What name do you prefer?",
+                "What would you like me to refer to you?"
+              ],
+              "answer": "ekasi  kotas",
+              "score": 0.313,
+              "id": 105,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              }
+            }
+          ],
+          "id": "QnA_CoreWithLanguage",
+          "intent": "QnAMatch",
+          "score": 0.95
+        },
+        "interrupted": true
+      },
+      "conversation": {
+        "_lastAccess": "2022-06-26T12:16:04.186Z",
+        "DialogState": {
+          "dialogStack": []
+        },
+        "eTag": "3"
+      },
+      "user": {
+        "greeted": "true",
+        "eTag": "4"
+      }
+    },
+    "name": "BotState",
+    "id": "fb567149-8dfc-4dc0-acb5-2f12b2892584",
+    "localTimestamp": "2022-06-26T14:17:15+02:00",
+    "timestamp": "2022-06-26T12:17:15.271Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1656245851319maxsdkhs58j",
+      "clientTimestamp": "2022-06-26T12:17:31.319Z"
+    },
+    "text": "ORDER RECIEVED",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "localTimestamp": "2022-06-26T14:17:31+02:00",
+    "localTimezone": "Africa/Johannesburg",
+    "timestamp": "2022-06-26T12:17:31.341Z",
+    "id": "a4cbf26b-cc02-4977-9fe5-8235732a9512",
+    "recipient": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "a4cbf26b-cc02-4977-9fe5-8235732a9512",
+    "label": "LuisV3 Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "ORDER RECIEVED",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.935818
+          }
+        },
+        "entities": {},
+        "luisResult": null
+      },
+      "luisResult": {
+        "topIntent": "DeferToRecognizer_QnA_CoreWithLanguage",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.935818
+          }
+        },
+        "entities": {}
+      },
+      "luisOptions": {
+        "includeAllIntents": false,
+        "includeInstanceData": false,
+        "log": true,
+        "preferExternalEntities": true,
+        "datetimeReference": "",
+        "slot": "production",
+        "telemetryClient": {},
+        "logPersonalInformation": false,
+        "includeAPIResults": false,
+        "apiVersion": "v3"
+      },
+      "luisModel": {
+        "ModelID": "c7b61a8b-5f4a-4786-aadf-5fe4fa86470d"
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "893b6c04-1410-4853-8441-4a5151c5a11b",
+    "localTimestamp": "2022-06-26T14:17:33+02:00",
+    "timestamp": "2022-06-26T12:17:33.575Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "a4cbf26b-cc02-4977-9fe5-8235732a9512",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "channelData": {
+          "clientActivityID": "1656245851319maxsdkhs58j",
+          "clientTimestamp": "2022-06-26T12:17:31.319Z"
+        },
+        "text": "ORDER RECIEVED",
+        "textFormat": "plain",
+        "type": "message",
+        "channelId": "emulator",
+        "from": {
+          "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+          "name": "",
+          "role": "user"
+        },
+        "locale": "en-us",
+        "localTimestamp": "2022-06-26T12:17:31.000Z",
+        "localTimezone": "Africa/Johannesburg",
+        "timestamp": "2022-06-26T12:17:31.341Z",
+        "id": "a4cbf26b-cc02-4977-9fe5-8235732a9512",
+        "recipient": {
+          "id": "9490af5c-20c5-4433-8388-775461d7e972",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+        },
+        "serviceUrl": "http://localhost:5000",
+        "rawTimestamp": "2022-06-26T12:17:31.341Z",
+        "rawLocalTimestamp": "2022-06-26T14:17:31+02:00",
+        "callerId": null
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "ORDER RECIEVED"
+          ],
+          "answer": "GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT",
+          "score": 1,
+          "id": 102,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        },
+        {
+          "questions": [
+            "Kota 1",
+            "kota 2",
+            "kota 3",
+            "kota 4",
+            "kota 5"
+          ],
+          "answer": "ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \"",
+          "score": 0.5586,
+          "id": 103,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        }
+      ],
+      "knowledgeBaseId": "9b2f3000-0f06-4657-8198-aed89d215a4b",
+      "scoreThreshold": 0.3,
+      "top": 3,
+      "strictFilters": [
+        {
+          "name": "dialogName",
+          "value": "CoreWithLanguage"
+        }
+      ],
+      "metadataBoost": [],
+      "qnaId": 0
+    },
+    "name": "QnAMaker",
+    "id": "34511dbf-8032-4f77-a000-85aa65f8ca84",
+    "localTimestamp": "2022-06-26T14:17:37+02:00",
+    "timestamp": "2022-06-26T12:17:37.207Z"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT</voice></speak>",
+    "replyToId": "a4cbf26b-cc02-4977-9fe5-8235732a9512",
+    "id": "c64fabfe-b269-45da-9dd9-d76a31a125fb",
+    "localTimestamp": "2022-06-26T14:17:37+02:00",
+    "timestamp": "2022-06-26T12:17:37.223Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "a4cbf26b-cc02-4977-9fe5-8235732a9512",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "activity": {
+          "channelData": {
+            "clientActivityID": "1656245851319maxsdkhs58j",
+            "clientTimestamp": "2022-06-26T12:17:31.319Z"
+          },
+          "text": "ORDER RECIEVED",
+          "textFormat": "plain",
+          "type": "message",
+          "channelId": "emulator",
+          "from": {
+            "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+            "name": "",
+            "role": "user"
+          },
+          "locale": "en-us",
+          "localTimestamp": "2022-06-26T12:17:31.000Z",
+          "localTimezone": "Africa/Johannesburg",
+          "timestamp": "2022-06-26T12:17:31.341Z",
+          "id": "a4cbf26b-cc02-4977-9fe5-8235732a9512",
+          "recipient": {
+            "id": "9490af5c-20c5-4433-8388-775461d7e972",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "conversation": {
+            "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+          },
+          "serviceUrl": "http://localhost:5000",
+          "rawTimestamp": "2022-06-26T12:17:31.341Z",
+          "rawLocalTimestamp": "2022-06-26T14:17:31+02:00",
+          "callerId": null
+        },
+        "dialogEvent": {
+          "name": "endOfActions",
+          "bubble": false
+        },
+        "recognized": {
+          "text": "ORDER RECIEVED",
+          "intents": {
+            "QnAMatch": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {
+              "answer": [
+                {
+                  "questions": [
+                    "ORDER RECIEVED"
+                  ],
+                  "answer": "GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT",
+                  "score": 1,
+                  "id": 102,
+                  "source": "custom editorial",
+                  "isDocumentText": false,
+                  "metadata": [
+                    {
+                      "name": "dialogname",
+                      "value": "corewithlanguage"
+                    }
+                  ],
+                  "context": {
+                    "isContextOnly": false,
+                    "prompts": []
+                  },
+                  "startIndex": 0,
+                  "endIndex": 14
+                }
+              ]
+            },
+            "answer": [
+              "GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT"
+            ]
+          },
+          "answers": [
+            {
+              "questions": [
+                "ORDER RECIEVED"
+              ],
+              "answer": "GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT",
+              "score": 1,
+              "id": 102,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              },
+              "startIndex": 0,
+              "endIndex": 14
+            },
+            {
+              "questions": [
+                "Kota 1",
+                "kota 2",
+                "kota 3",
+                "kota 4",
+                "kota 5"
+              ],
+              "answer": "ORDER SUCESSFULLY CAPTURED   when you have recieved your order please send the message \"ORDER RECIEVED \"",
+              "score": 0.5586,
+              "id": 103,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              }
+            }
+          ],
+          "id": "QnA_CoreWithLanguage",
+          "intent": "QnAMatch",
+          "score": 1
+        },
+        "interrupted": true
+      },
+      "conversation": {
+        "_lastAccess": "2022-06-26T12:16:04.186Z",
+        "DialogState": {
+          "dialogStack": []
+        },
+        "eTag": "3"
+      },
+      "user": {
+        "greeted": "true",
+        "eTag": "4"
+      }
+    },
+    "name": "BotState",
+    "id": "79b9a616-a694-4e30-ba55-1b208f4dae74",
+    "localTimestamp": "2022-06-26T14:17:37+02:00",
+    "timestamp": "2022-06-26T12:17:37.232Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1656245871990qou728pyhq",
+      "clientTimestamp": "2022-06-26T12:17:51.991Z"
+    },
+    "text": "1",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "localTimestamp": "2022-06-26T14:17:52+02:00",
+    "localTimezone": "Africa/Johannesburg",
+    "timestamp": "2022-06-26T12:17:52.045Z",
+    "id": "cebd8ab7-927b-479f-b096-60078f50da38",
+    "recipient": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "cebd8ab7-927b-479f-b096-60078f50da38",
+    "label": "QnAMaker Trace",
+    "valueType": "https://www.qnamaker.ai/schemas/trace",
+    "value": {
+      "message": {
+        "channelData": {
+          "clientActivityID": "1656245871990qou728pyhq",
+          "clientTimestamp": "2022-06-26T12:17:51.991Z"
+        },
+        "text": "1",
+        "textFormat": "plain",
+        "type": "message",
+        "channelId": "emulator",
+        "from": {
+          "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+          "name": "",
+          "role": "user"
+        },
+        "locale": "en-us",
+        "localTimestamp": "2022-06-26T12:17:52.000Z",
+        "localTimezone": "Africa/Johannesburg",
+        "timestamp": "2022-06-26T12:17:52.045Z",
+        "id": "cebd8ab7-927b-479f-b096-60078f50da38",
+        "recipient": {
+          "id": "9490af5c-20c5-4433-8388-775461d7e972",
+          "name": "Bot",
+          "role": "bot"
+        },
+        "conversation": {
+          "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+        },
+        "serviceUrl": "http://localhost:5000",
+        "rawTimestamp": "2022-06-26T12:17:52.045Z",
+        "rawLocalTimestamp": "2022-06-26T14:17:52+02:00",
+        "callerId": null
+      },
+      "queryResults": [
+        {
+          "questions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "THANK YOU  ENJOY THE BEST KOTA YASE  KASI",
+          "score": 1,
+          "id": 101,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        },
+        {
+          "questions": [
+            "ORDER RECIEVED"
+          ],
+          "answer": "GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT",
+          "score": 0.5064,
+          "id": 102,
+          "source": "custom editorial",
+          "isDocumentText": false,
+          "metadata": [
+            {
+              "name": "dialogname",
+              "value": "corewithlanguage"
+            }
+          ],
+          "context": {
+            "isContextOnly": false,
+            "prompts": []
+          }
+        }
+      ],
+      "knowledgeBaseId": "9b2f3000-0f06-4657-8198-aed89d215a4b",
+      "scoreThreshold": 0.3,
+      "top": 3,
+      "strictFilters": [
+        {
+          "name": "dialogName",
+          "value": "CoreWithLanguage"
+        }
+      ],
+      "metadataBoost": [],
+      "qnaId": 0
+    },
+    "name": "QnAMaker",
+    "id": "e58fd881-a476-4f84-a088-1f82f7c4d40a",
+    "localTimestamp": "2022-06-26T14:17:53+02:00",
+    "timestamp": "2022-06-26T12:17:53.036Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "cebd8ab7-927b-479f-b096-60078f50da38",
+    "label": "LuisV3 Trace",
+    "valueType": "https://www.luis.ai/schemas/trace",
+    "value": {
+      "recognizerResult": {
+        "text": "1",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.9483492
+          }
+        },
+        "entities": {},
+        "luisResult": null
+      },
+      "luisResult": {
+        "topIntent": "DeferToRecognizer_QnA_CoreWithLanguage",
+        "intents": {
+          "DeferToRecognizer_QnA_CoreWithLanguage": {
+            "score": 0.9483492
+          }
+        },
+        "entities": {}
+      },
+      "luisOptions": {
+        "includeAllIntents": false,
+        "includeInstanceData": false,
+        "log": true,
+        "preferExternalEntities": true,
+        "datetimeReference": "",
+        "slot": "production",
+        "telemetryClient": {},
+        "logPersonalInformation": false,
+        "includeAPIResults": false,
+        "apiVersion": "v3"
+      },
+      "luisModel": {
+        "ModelID": "c7b61a8b-5f4a-4786-aadf-5fe4fa86470d"
+      }
+    },
+    "name": "LuisRecognizer",
+    "id": "a58ee4d3-3d90-43ad-b7e1-6ecf642759e5",
+    "localTimestamp": "2022-06-26T14:17:53+02:00",
+    "timestamp": "2022-06-26T12:17:53.655Z"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "THANK YOU  ENJOY THE BEST KOTA YASE  KASI",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>THANK YOU  ENJOY THE BEST KOTA YASE  KASI</voice></speak>",
+    "replyToId": "cebd8ab7-927b-479f-b096-60078f50da38",
+    "id": "8a160d7d-bb1a-4ad4-a56c-4ef1c7496c5f",
+    "localTimestamp": "2022-06-26T14:17:53+02:00",
+    "timestamp": "2022-06-26T12:17:53.658Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "9490af5c-20c5-4433-8388-775461d7e972",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+    },
+    "recipient": {
+      "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "cebd8ab7-927b-479f-b096-60078f50da38",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "activity": {
+          "channelData": {
+            "clientActivityID": "1656245871990qou728pyhq",
+            "clientTimestamp": "2022-06-26T12:17:51.991Z"
+          },
+          "text": "1",
+          "textFormat": "plain",
+          "type": "message",
+          "channelId": "emulator",
+          "from": {
+            "id": "52fb680f-9695-4466-a1e5-6a08cf8e6724",
+            "name": "",
+            "role": "user"
+          },
+          "locale": "en-us",
+          "localTimestamp": "2022-06-26T12:17:52.000Z",
+          "localTimezone": "Africa/Johannesburg",
+          "timestamp": "2022-06-26T12:17:52.045Z",
+          "id": "cebd8ab7-927b-479f-b096-60078f50da38",
+          "recipient": {
+            "id": "9490af5c-20c5-4433-8388-775461d7e972",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "conversation": {
+            "id": "b191a69d-c62d-4717-a27b-baa5f088d215|livechat"
+          },
+          "serviceUrl": "http://localhost:5000",
+          "rawTimestamp": "2022-06-26T12:17:52.045Z",
+          "rawLocalTimestamp": "2022-06-26T14:17:52+02:00",
+          "callerId": null
+        },
+        "dialogEvent": {
+          "name": "endOfActions",
+          "bubble": false
+        },
+        "recognized": {
+          "text": "1",
+          "intents": {
+            "QnAMatch": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {
+              "answer": [
+                {
+                  "questions": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "answer": "THANK YOU  ENJOY THE BEST KOTA YASE  KASI",
+                  "score": 1,
+                  "id": 101,
+                  "source": "custom editorial",
+                  "isDocumentText": false,
+                  "metadata": [
+                    {
+                      "name": "dialogname",
+                      "value": "corewithlanguage"
+                    }
+                  ],
+                  "context": {
+                    "isContextOnly": false,
+                    "prompts": []
+                  },
+                  "startIndex": 0,
+                  "endIndex": 1
+                }
+              ]
+            },
+            "answer": [
+              "THANK YOU  ENJOY THE BEST KOTA YASE  KASI"
+            ]
+          },
+          "answers": [
+            {
+              "questions": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": "THANK YOU  ENJOY THE BEST KOTA YASE  KASI",
+              "score": 1,
+              "id": 101,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              },
+              "startIndex": 0,
+              "endIndex": 1
+            },
+            {
+              "questions": [
+                "ORDER RECIEVED"
+              ],
+              "answer": "GREAT   PLEASE RATE OUR SEVICE ON A SCALE OF 1-5  1 BEING VERY BAD AND 5 BEING EXCELLENT",
+              "score": 0.5064,
+              "id": 102,
+              "source": "custom editorial",
+              "isDocumentText": false,
+              "metadata": [
+                {
+                  "name": "dialogname",
+                  "value": "corewithlanguage"
+                }
+              ],
+              "context": {
+                "isContextOnly": false,
+                "prompts": []
+              }
+            }
+          ],
+          "id": "QnA_CoreWithLanguage",
+          "intent": "QnAMatch",
+          "score": 1
+        },
+        "interrupted": true
+      },
+      "conversation": {
+        "_lastAccess": "2022-06-26T12:16:04.186Z",
+        "DialogState": {
+          "dialogStack": []
+        },
+        "eTag": "3"
+      },
+      "user": {
+        "greeted": "true",
+        "eTag": "4"
+      }
+    },
+    "name": "BotState",
+    "id": "18238aac-2473-4e70-a16a-f01888247076",
+    "localTimestamp": "2022-06-26T14:17:53+02:00",
+    "timestamp": "2022-06-26T12:17:53.666Z"
+  }
+]
